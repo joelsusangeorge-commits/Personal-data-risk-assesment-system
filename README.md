@@ -9,23 +9,31 @@ In today's digital world, users interact with multiple online platforms such as 
 This project provides a simple risk assessment tool that analyzes user responses and generates a privacy risk score and dashboard to help users understand their level of exposure to privacy risks.
 
 Features
-One question at a time questionnaire
-Six security-related questions
-Risk calculation based on user behavior
-Privacy risk dashboard output
-Color-changing risk meter
-Categorized risk analysis
+
+1.One question at a time questionnaire
+
+2.Six security-related questions
+
+3.Risk calculation based on user behavior
+
+4.Privacy risk dashboard output
+
+5.Color-changing risk meter
+
+6.Categorized risk analysis
 
 How It Works
-The system asks the user a series of security-related questions.
-The user selects an answer for each question.
-Each answer is assigned a risk score.
+The system asks the user a series of security-related questions.The user selects an answer for each question.Each answer is assigned a risk score.
 
 Risk scores are categorized into:
-Authentication Risk
-Social Media Risk
-Network Risk
-Financial Risk
+
+1.Authentication Risk
+
+2.Social Media Risk
+
+3.Network Risk
+
+4.Financial Risk
 
 The system calculates a total risk score.
 The final result is displayed in a dashboard with a visual risk meter.
