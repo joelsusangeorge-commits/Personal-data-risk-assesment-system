@@ -23,6 +23,7 @@ Features
 6.Categorized risk analysis
 
 How It Works
+
 The system asks the user a series of security-related questions.The user selects an answer for each question.Each answer is assigned a risk score.
 
 Risk scores are categorized into:
