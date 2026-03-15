@@ -14,7 +14,7 @@ public class PrivacyRiskApp {
         title.setBounds(170, 10, 400, 30);
         frame.add(title);
 
-        // PASSWORD MANAGEMENT
+       
         JLabel q1 = new JLabel("Password Management:");
         q1.setBounds(20, 50, 200, 20);
         frame.add(q1);
@@ -32,7 +32,7 @@ public class PrivacyRiskApp {
 
         frame.add(p1); frame.add(p2); frame.add(p3);
 
-        // SOCIAL MEDIA
+     
         JLabel q2 = new JLabel("Social Media Privacy:");
         q2.setBounds(20, 140, 200, 20);
         frame.add(q2);
@@ -50,7 +50,6 @@ public class PrivacyRiskApp {
 
         frame.add(s1); frame.add(s2); frame.add(s3);
 
-        // WIFI USAGE
         JLabel q3 = new JLabel("Public WiFi Usage:");
         q3.setBounds(20, 230, 200, 20);
         frame.add(q3);
@@ -68,7 +67,7 @@ public class PrivacyRiskApp {
 
         frame.add(w1); frame.add(w2); frame.add(w3);
 
-        // OTP SECURITY
+
         JLabel q4 = new JLabel("OTP Security:");
         q4.setBounds(320, 50, 200, 20);
         frame.add(q4);
@@ -86,7 +85,7 @@ public class PrivacyRiskApp {
 
         frame.add(o1); frame.add(o2); frame.add(o3);
 
-        // TWO FACTOR AUTH
+
         JLabel q5 = new JLabel("Two-Factor Authentication:");
         q5.setBounds(320, 140, 200, 20);
         frame.add(q5);
@@ -104,7 +103,7 @@ public class PrivacyRiskApp {
 
         frame.add(t1); frame.add(t2); frame.add(t3);
 
-        // PASSWORD UPDATE
+
         JLabel q6 = new JLabel("Password Update Frequency:");
         q6.setBounds(320, 230, 200, 20);
         frame.add(q6);
@@ -131,7 +130,7 @@ public class PrivacyRiskApp {
         dashboard.setEditable(false);
         frame.add(dashboard);
 
-        // Risk meter
+     
         JProgressBar riskBar = new JProgressBar(0, 150);
         riskBar.setBounds(170, 480, 300, 25);
         riskBar.setStringPainted(true);
@@ -189,7 +188,7 @@ public class PrivacyRiskApp {
 
                 riskBar.setValue(totalRisk);
 
-                // COLOR CHANGE BASED ON RISK
+
                 if (totalRisk <= 40)
                     riskBar.setForeground(Color.GREEN);
                 else if (totalRisk <= 80)
